@@ -1,7 +1,7 @@
 <?php
 
 // PARAMETRI DA MODIFICARE
-$WEBHOOK_URL = 'https://piforbot1.herokuapp.com/execute.php';
+$WEBHOOK_URL = 'https://piforbot.herokuapp.com/execute.php';
 $BOT_TOKEN = '1031631163:AAHTFMRXUJGS9R6Sc-Bp6muxlA_d5LdSxzM';
 
 // NON APPORTARE MODIFICHE NEL CODICE SEGUENTE
