@@ -23,3 +23,8 @@ header("Content-Type: application/json");
 $parameters = array('chat_id' => $chatId, "text" => $text);
 $parameters["method"] = "sendMessage";
 echo json_encode($parameters);
+
+if($msg == "/start")
+{
+sm($chatID, "Benvenuto nel mio bot! da qui potrai leggere le ultime notizie.");
+}
